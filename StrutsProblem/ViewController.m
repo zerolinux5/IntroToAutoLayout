@@ -26,6 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+/*
 - (void)viewWillLayoutSubviews
 {
     if (UIInterfaceOrientationIsLandscape(self.interfaceOrientation))
@@ -67,5 +68,5 @@
         self.bottomView.frame = rect;
     }
 }
-
+*/
 @end
