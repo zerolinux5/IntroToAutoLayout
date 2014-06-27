@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *topLeftView;
+@property (weak, nonatomic) IBOutlet UITextView *topRightView;
+@property (weak, nonatomic) IBOutlet UITextView *bottomView;
 
 @end
